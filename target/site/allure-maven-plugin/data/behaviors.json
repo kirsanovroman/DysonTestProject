@@ -1,0 +1,72 @@
+{
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 1,
+    "unknown" : 0,
+    "total" : 1
+  },
+  "time" : {
+    "minDuration" : 14620,
+    "maxDuration" : 14620,
+    "sumDuration" : 14620,
+    "start" : 1520246890884,
+    "stop" : 1520246905504,
+    "duration" : 14620
+  },
+  "children" : [ {
+    "uid" : "78136f9f85ccff6d",
+    "name" : "Default feature",
+    "time" : {
+      "minDuration" : 14620,
+      "maxDuration" : 14620,
+      "sumDuration" : 14620,
+      "start" : 1520246890884,
+      "stop" : 1520246905504,
+      "duration" : 14620
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "1bf8327b04fefbfc",
+      "name" : "Default story",
+      "time" : {
+        "minDuration" : 14620,
+        "maxDuration" : 14620,
+        "sumDuration" : 14620,
+        "start" : 1520246890884,
+        "stop" : 1520246905504,
+        "duration" : 14620
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "960223164393fb7a",
+        "name" : "TestCheckFilter",
+        "time" : {
+          "start" : 1520246890884,
+          "stop" : 1520246905504,
+          "duration" : 14620
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  } ]
+}

@@ -1,0 +1,7 @@
+Pages\BasePageClass.class
+test\BaseTestClass.class
+Pages\YandexResultPage.class
+Pages\PageFromDropDownList.class
+Pages\DysonHomePage.class
+Pages\YandexSearchPage.class
+test\TestCheckFilter.class

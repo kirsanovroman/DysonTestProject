@@ -1,0 +1,189 @@
+{
+  "uid" : "960223164393fb7a",
+  "name" : "TestCheckFilter",
+  "fullName" : "test.TestCheckFilter.TestCheckFilter",
+  "historyId" : "462d67e418ebb7352b109bbd8128fa08",
+  "time" : {
+    "start" : 1520246890884,
+    "stop" : 1520246905504,
+    "duration" : 14620
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "description" : "Проверка официального сайта пылесосов Dyson",
+  "descriptionHtml" : "<p>Проверка официального сайта пылесосов Dyson</p>",
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1520246886157,
+      "stop" : 1520246890753,
+      "duration" : 4596
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "statusDetails" : {
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "Открытие поисковой страницы Яндекс",
+      "time" : {
+        "start" : 1520246891052,
+        "stop" : 1520246895219,
+        "duration" : 4167
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Осуществление поискового запроса 'пылесос Dyson'",
+      "time" : {
+        "start" : 1520246895220,
+        "stop" : 1520246898441,
+        "duration" : 3221
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "input",
+        "value" : "пылесос Dyson"
+      } ]
+    }, {
+      "name" : "Открытие официального сайта компании Dyson",
+      "time" : {
+        "start" : 1520246898442,
+        "stop" : 1520246902153,
+        "duration" : 3711
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Проверка наличия элемента 'SMALLBALL' на странице",
+      "time" : {
+        "start" : 1520246902153,
+        "stop" : 1520246902184,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "nameOfElement",
+        "value" : "SMALLBALL"
+      } ]
+    }, {
+      "name" : "Выбор элемента 'Насадки и аксессуары' из выпадающего списка 'Ассортимент'",
+      "time" : {
+        "start" : 1520246902185,
+        "stop" : 1520246905294,
+        "duration" : 3109
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "nameList",
+        "value" : "Ассортимент"
+      }, {
+        "name" : "nameElement",
+        "value" : "Насадки и аксессуары"
+      } ]
+    }, {
+      "name" : "Проверка наличия элемента 'Фильтр для очистителя воздуха' на странице аксессуаров",
+      "time" : {
+        "start" : 1520246905294,
+        "stop" : 1520246905501,
+        "duration" : 207
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "nameOfElement",
+        "value" : "Фильтр для очистителя воздуха"
+      } ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ {
+    "name" : "tearsDown",
+    "time" : {
+      "start" : 1520246905718,
+      "stop" : 1520246907274,
+      "duration" : 1556
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.TestCheckFilter"
+  }, {
+    "name" : "testClass",
+    "value" : "test.TestCheckFilter"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestCheckFilter"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.TestCheckFilter"
+  }, {
+    "name" : "host",
+    "value" : "NB1588SL"
+  }, {
+    "name" : "thread",
+    "value" : "13236@NB1588SL.main(1)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

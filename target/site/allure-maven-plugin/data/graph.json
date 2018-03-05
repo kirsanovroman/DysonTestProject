@@ -1,0 +1,11 @@
+[ {
+  "uid" : "960223164393fb7a",
+  "name" : "TestCheckFilter",
+  "time" : {
+    "start" : 1520246890884,
+    "stop" : 1520246905504,
+    "duration" : 14620
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
